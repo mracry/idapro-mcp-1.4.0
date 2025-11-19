@@ -1,3 +1,5 @@
+IDA Pro MCP 的最新版本存在一些问题，所以我自己使用的是 IDA Pro MCP 1.4.0 版本。
+
 # IDA Pro MCP
 
 Simple [MCP Server](https://modelcontextprotocol.io/introduction) to allow vibe reversing in IDA Pro.
@@ -258,4 +260,5 @@ Generate the changelog of direct commits to `main`:
 ```sh
 git log --first-parent --no-merges 1.2.0..main "--pretty=- %s"
 ```
+
 
